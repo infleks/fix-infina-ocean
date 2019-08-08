@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="fix.infina.ocean.app.AppTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-08-08T20:51:38" hostname="Tuccars" time="0.012">
+  <properties/>
+  <testcase name="emptyArgs" classname="fix.infina.ocean.app.AppTest" time="0.002"/>
+  <testcase name="readFile" classname="fix.infina.ocean.app.AppTest" time="0.008"/>
+  <testcase name="help" classname="fix.infina.ocean.app.AppTest" time="0.002"/>
+  <system-out><![CDATA[23:51:38.107 [Test worker] DEBUG fix.infina.ocean.app.App - Hello to Infina-Ocean Integration App....
+23:51:38.107 [Test worker] DEBUG fix.infina.ocean.app.App - Hello to Infina-Ocean Integration App....
+23:51:38.108 [Test worker] DEBUG fix.infina.ocean.app.App - Starting....
+23:51:38.108 [Test worker] DEBUG fix.infina.ocean.app.App - Starting....
+23:51:38.108 [Test worker] DEBUG fix.infina.ocean.app.App - App stopped.
+23:51:38.108 [Test worker] DEBUG fix.infina.ocean.app.App - App stopped.
+23:51:38.109 [Test worker] DEBUG fix.infina.ocean.app.App - Hello to Infina-Ocean Integration App....
+23:51:38.109 [Test worker] DEBUG fix.infina.ocean.app.App - Hello to Infina-Ocean Integration App....
+23:51:38.109 [Test worker] DEBUG fix.infina.ocean.app.App - Starting....
+23:51:38.109 [Test worker] DEBUG fix.infina.ocean.app.App - Starting....
+23:51:38.111 [Test worker] DEBUG fix.infina.ocean.command.ReadURTFileCommand - Reading file ocean_data_sample.v.2.csv
+23:51:38.111 [Test worker] DEBUG fix.infina.ocean.command.ReadURTFileCommand - Reading file ocean_data_sample.v.2.csv
+23:51:38.111 [Test worker] ERROR fix.infina.ocean.command.ReadURTFileCommand - Cant find file in working dir
+23:51:38.111 [Test worker] ERROR fix.infina.ocean.command.ReadURTFileCommand - Cant find file in working dir
+23:51:38.112 [Test worker] INFO  fix.infina.ocean.command.ReadURTFileCommand - Output file deleted.
+23:51:38.112 [Test worker] INFO  fix.infina.ocean.command.ReadURTFileCommand - Output file deleted.
+23:51:38.114 [Test worker] INFO  fix.infina.ocean.command.ReadURTFileCommand - Output file created.
+23:51:38.114 [Test worker] INFO  fix.infina.ocean.command.ReadURTFileCommand - Output file created.
+23:51:38.115 [Test worker] INFO  fix.infina.ocean.command.ReadURTFileCommand - Output file updated.
+23:51:38.115 [Test worker] INFO  fix.infina.ocean.command.ReadURTFileCommand - Output file updated.
+23:51:38.116 [Test worker] DEBUG fix.infina.ocean.app.App - App stopped.
+23:51:38.116 [Test worker] DEBUG fix.infina.ocean.app.App - App stopped.
+23:51:38.117 [Test worker] DEBUG fix.infina.ocean.app.App - Hello to Infina-Ocean Integration App....
+23:51:38.117 [Test worker] DEBUG fix.infina.ocean.app.App - Hello to Infina-Ocean Integration App....
+23:51:38.117 [Test worker] DEBUG fix.infina.ocean.app.App - Starting....
+23:51:38.117 [Test worker] DEBUG fix.infina.ocean.app.App - Starting....
+23:51:38.118 [Test worker] DEBUG fix.infina.ocean.command.HelpCommand - Avaiable commands:
+23:51:38.118 [Test worker] DEBUG fix.infina.ocean.command.HelpCommand - Avaiable commands:
+23:51:38.118 [Test worker] DEBUG fix.infina.ocean.command.HelpCommand - -urt [filename]
+23:51:38.118 [Test worker] DEBUG fix.infina.ocean.command.HelpCommand - -urt [filename]
+23:51:38.118 [Test worker] DEBUG fix.infina.ocean.app.App - App stopped.
+23:51:38.118 [Test worker] DEBUG fix.infina.ocean.app.App - App stopped.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

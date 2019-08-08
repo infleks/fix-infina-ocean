@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="fix.infina.ocean.worker.OceanURTMessageWorkerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-08-08T20:51:37" hostname="Tuccars" time="0.41">
+  <properties/>
+  <testcase name="withNull" classname="fix.infina.ocean.worker.OceanURTMessageWorkerTest" time="0.385"/>
+  <testcase name="withMap" classname="fix.infina.ocean.worker.OceanURTMessageWorkerTest" time="0.025"/>
+  <system-out><![CDATA[23:51:38.075 [Test worker] DEBUG fix.infina.ocean.worker.OceanURTMessageWorker - Input is null
+23:51:38.075 [Test worker] DEBUG fix.infina.ocean.worker.OceanURTMessageWorker - Input is null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
