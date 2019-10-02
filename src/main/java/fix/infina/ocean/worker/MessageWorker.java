@@ -4,6 +4,6 @@ import java.util.Map;
 
 public interface MessageWorker {
 
-	public String work(Map<Integer, Object> data);
+	public String work(Map<String, Object> data);
 
 }

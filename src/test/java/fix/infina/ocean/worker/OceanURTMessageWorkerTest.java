@@ -30,15 +30,15 @@ public class OceanURTMessageWorkerTest {
 		sdf.setTimeZone(TimeZone.getTimeZone("UTC+3"));
 		String timestampText = sdf.format(new Date(timestamp.getTime()));
 
-		Map<Integer, Object> map = new HashMap<>();
-		map.put(1, 1);
-		map.put(2, "Value for 2");
-		map.put(3, 'A');
-		map.put(4, true);
-		map.put(5, new BigDecimal("1.234"));
-		map.put(6, new Double(1.2345));
-		map.put(7, new Date());
-		map.put(8, timestamp);
+		Map<String, Object> map = new HashMap<>();
+		map.put("1", 1);
+		map.put("2", "Value for 2");
+		map.put("3", 'A');
+		map.put("4", true);
+		map.put("5", new BigDecimal("1.234"));
+		map.put("6", new Double(1.2345));
+		map.put("7", new Date());
+		map.put("8", timestamp);
 
 		OceanURTMessageWorker worker = new OceanURTMessageWorker();
 		String message = worker.work(map);

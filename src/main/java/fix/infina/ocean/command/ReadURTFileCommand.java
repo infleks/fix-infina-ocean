@@ -42,9 +42,9 @@ public class ReadURTFileCommand implements AppCommand {
 					if (keyArr == null) {
 						keyArr = arr;
 					} else {
-						Map<Integer, Object> map = new HashMap<>();
+						Map<String, Object> map = new HashMap<>();
 						for (int i = 0; i < arr.length; i++) {
-							map.put(Integer.parseInt(keyArr[i].trim()), arr[i].trim());
+							map.put(keyArr[i].trim(), arr[i].trim());
 						}
 						OceanURTMessageWorker worker = new OceanURTMessageWorker();
 						String message = worker.work(map);
